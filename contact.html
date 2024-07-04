@@ -19,6 +19,8 @@
 }
 .text-first{ color: var(--color-first); }
 .text-second{ color: var(--color-second); }
+.myrounded{ border-radius: 1rem; }
+.mybox-shadow{ box-shadow: 0px 0px 10px rgb(200, 200, 200); }
 *{
   scroll-behavior: smooth;
 }
@@ -71,12 +73,6 @@ a{
     transform: scale(1.1);
     transition: all .2s ease-in-out;
 }
-.myform{
-  background: white;
-  border-radius: 1rem;
-  box-shadow: 0px 0px 10px rgb(200, 200, 200);
-  border: none;
-}
 .mycard{
   background: white;
   text-align: center;
@@ -125,7 +121,7 @@ a{
 .socials{
   position: fixed;
   background: transparent;
-  width: 40px;
+  width: 30px;
   height: 100vh;
   bottom: 0;
   left: 5px;
@@ -198,7 +194,7 @@ a{
     <section id="contact" class="py-5">
       <div class="container">
         <div class="row justify-content-center align-items-center">
-          <div class="col-md-6 col-11">
+          <div class="col-md-6 col-10">
 
             <div class="row">
 
@@ -228,8 +224,8 @@ a{
             </div>
 
           </div>
-          <div class="col-md-6 col-11">
-            <form action="" class="myform p-4">
+          <div class="col-md-6 col-10">
+            <form action="" class="bg-white myrounded mybox-shadow p-4">
               <div class="row">
 
                 <div class="col-12 pb-2 text-center">
